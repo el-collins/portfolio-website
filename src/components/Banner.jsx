@@ -54,11 +54,11 @@ const Banner = () => {
             >
               <TypeAnimation
                 sequence={[
+                  "Software Engineer",
+                  2000,
                   "Full-Stack Developer",
                   2000,
-                  "Front-end Developer",
-                  2000,
-                  "Back-end Developer",
+                  "Data Engineer",
                   2000,
                 ]}
                 speed={50}
@@ -75,9 +75,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              🚀 Full Stack Developer | Crafting Digital Experiences <br />
-              🌐 Turning ideas into reality through code and designs. Passionate
-              about front-end and back-end development and designs.
+              Software Engineer specializing in .NET, Python, and React. Building production-ready applications for international clients. Experienced in enterprise SaaS, data engineering, and scalable web systems.
             </motion.p>
             <button
               to="/About"

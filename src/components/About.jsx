@@ -9,7 +9,7 @@ import ExperiencePage from './ExperiencePage'
 const About = () => {
 //lg:h-screen
   return (
-    <section className="h-[4500px]" id="about" >
+    <section className="h-[6500px]" id="about" >
       <div className="container mx-auto  ">
       {/* <motion.div
             variants={fadeIn("left", 0.5)}
@@ -42,23 +42,17 @@ const About = () => {
               About Me.
             </h2>
             <h3 className="mb-4 font-semibold text-[30px]">
-              Hi there! I'm a Full-stack developer with over 3 years of
-              experience.
+              Hi there! I'm a Software Engineer and Full Stack Developer with 2+ years of professional experience.
             </h3>
             <p className="">
-              My adventure in the world of web and mobible app development and
-              design began with a fascination for crafting beautiful,
-              functional, and user-friendly websites and apps. Over time, this
-              passion has grown into a full-fledged commitment to mastering the
-              art and science of development and designs.
+              I specialize in delivering production-ready full-stack applications for international clients across Canada and the USA. With expertise in .NET, Python, React, and TypeScript, I've built enterprise SaaS platforms, optimized data workflows, and developed scalable web systems. Currently pursuing my M.Sc. in Information Technology, I'm passionate about combining technical versatility with practical industry insights to solve complex engineering challenges.
             </p>
 
             {/* stats */}
             <div className="flex gap-x-4 lg:gap-x-10 mb-12 my-5 text-center justify-center lg:justify-start">
               <div className="border rounded-[10px] border-[#ec44ff40] p-3">
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                <CountUp start={0} end={3} duration={3} />
-                  {/* {inView ? <CountUp start={0} end={5} duration={3} /> : null} */}
+                <CountUp start={0} end={2} duration={3} />+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Years of <br />
@@ -68,8 +62,7 @@ const About = () => {
 
               <div className="border rounded-[10px] border-[#ec44ff40] p-3">
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                <CountUp start={0} end={10} duration={3} />
-                  {/* {inView ? <CountUp start={0} end={13} duration={3} /> : null} */}
+                <CountUp start={0} end={12} duration={3} />+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
                   Projects <br />
@@ -79,14 +72,12 @@ const About = () => {
 
               <div className="border rounded-[10px] border-[#ec44ff40] p-3">
                 <div className="text-[40px] font-tertiary text-gradient mb-2">
-                <CountUp start={0} end={15} duration={3} /> 
-
-                  {/* {inView ? <CountUp start={0} end={20} duration={3} /> : null} */}
+                <CountUp start={0} end={50} duration={3} />+
                 </div>
                 <div className="font-primary text-sm tracking-[2px]">
-                  Satisfied
+                  Client
                   <br />
-                  Clients
+                  Organizations
                 </div>
               </div>
             </div>
