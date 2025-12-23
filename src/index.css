@@ -180,7 +180,7 @@ textarea:focus::placeholder {
 
 @layer base {
   body {
-    @apply font-secondary text-lg leading-8 text-white;
+    @apply font-primary text-lg leading-8 text-white;
   }
   .btn {
     @apply rounded-full font-primary text-white font-medium;

@@ -19,7 +19,7 @@ import { FaXTwitter, FaInstagram, FaFacebook  } from "react-icons/fa6";
 
 const Banner = () => {
   return (
-    <section className=" flex items-center h-[110vh]" id="home">
+    <section className=" flex items-center min-h-screen" id="home">
       {/* <Header/> */}
 
       <div className="container mx-auto font-primary">

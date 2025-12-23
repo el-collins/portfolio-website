@@ -5,7 +5,7 @@ import projectData from '../assets/projectdata'
 
 const Work = () => {
   return (
-    <section className="h-[4000px]" id="work">
+    <section className="min-h-screen py-20" id="work">
       <div className="container mx-auto ">
 
        {/* heading */}
@@ -28,7 +28,7 @@ const Work = () => {
             description={project.description}
             icon={ProjectCard.icon}
             code={project.code}
-            code={project.view}
+            view={project.view}
           />
         ))}
       </div>

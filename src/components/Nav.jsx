@@ -18,41 +18,32 @@ const Nav = () => {
 
           <Link
             to="/"
-            activeClass="active"
-            smooth={true}
-            spy={true}
-           offset={-200}
-           className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center ${pathname === "/" ? "active" : ""}`}
+            className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center ${pathname === "/" ? "active" : ""}`}
+            aria-label="Home"
           >
             <BiHomeAlt />
           </Link>
 
           <Link
-            to="./About"
-            activeClass="active"
-            smooth={true}
-            spy={true}
+            to="/About"
             className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center ${pathname === "/About" ? "active" : ""}`}
+            aria-label="About"
           >
             <BiUser />
           </Link>
 
           <Link
             to="/Work"
-            activeClass="active"
-            smooth={true}
-            spy={true}
             className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center ${pathname === "/Work" ? "active" : ""}`}
+            aria-label="Work"
           >
             <BsBriefcase />
           </Link>
 
           <Link
             to="/Contact"
-            activeClass="active"
-            smooth={true}
-            spy={true}
             className={`cursor-pointer w-[60px] h-[60px] flex items-center justify-center ${pathname === "/Contact" ? "active" : ""}`}
+            aria-label="Contact"
           >
             <BsChatSquareText />
           </Link>

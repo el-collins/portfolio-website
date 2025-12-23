@@ -9,7 +9,7 @@ import ExperiencePage from './ExperiencePage'
 const About = () => {
 //lg:h-screen
   return (
-    <section className="h-[6500px]" id="about" >
+    <section className="min-h-screen py-20" id="about" >
       <div className="container mx-auto  ">
       {/* <motion.div
             variants={fadeIn("left", 0.5)}

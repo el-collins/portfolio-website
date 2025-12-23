@@ -19,16 +19,16 @@ const ProjectCard = ({ image, title, description, code, view }) => {
     <div>
       {/* project containers */}
       <div className="container mt-20">
-        <div className="rounded-[1.7rem] bg-[#75757533] flex gap-x-[2rem] flex-col w-full h-[800px] justify-center p-5 shadow-md shadow-[#40404058] lg:flex-row lg:h-[25rem] lg:w-full">
+        <div className="rounded-[1.7rem] bg-[#75757533] flex gap-x-[2rem] flex-col w-full min-h-[400px] justify-center p-5 shadow-md shadow-[#40404058] lg:flex-row lg:min-h-[25rem] lg:w-full">
           {/* image container */}
           <div className="w-full lg:w-[150rem] rounded-[1.7rem] overflow-hidden shadow-md shadow-[#9a9a9a70] lg:flex-1 ">
-            <a href="http://" target="_blank" rel="noopener noreferrer">
+            <a href={view} target="_blank" rel="noopener noreferrer">
               <img
                 className={`w-full h-auto ${
                   isHovered ? "hovered" : "unhovered"
                 }`}
                 src={image}
-                alt=""
+                alt={`${title} project screenshot`}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
               />
